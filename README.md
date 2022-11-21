@@ -1,8 +1,11 @@
 # Cloud Computing Project
 ---
 ## Table of Content
-1. [Sample Topic 1]()
-2. [Sample Topic 2]()
+1. [Overview](https://github.com/cloud-1400-project/project/blob/main/README.md#overview)
+2. [Project Overview](https://github.com/cloud-1400-project/project/blob/main/README.md#project-overview)
+3. [Micro-services](https://github.com/cloud-1400-project/project/blob/main/README.md#micro-services)
+4. [Phase 1](https://github.com/cloud-1400-project/project/blob/main/README.md#phase-1)
+5. [Phase 2](https://github.com/cloud-1400-project/project/blob/main/README.md#phase-2)
 ---
 ## Overview
 ---
@@ -24,7 +27,7 @@ First of all, you will be introduced to the fundamentals of the Go programming l
 ![o](https://user-images.githubusercontent.com/64916254/203114001-4062b7f9-4b85-45ce-83f1-073a9f72fb99.png)
 
 Here in this diagram you can see what purpose each part serves. The authentication service, and the product service, are fully developed, containerized, and accompanied by the necessary yaml configuration for the docker-compose. Before moving on to the development phase, you need to read their documentations, and plan for the next phases. Here is the link to each service, and a master repository:
-1. [AUTH]()
+1. [AUTH](https://github.com/toorajtaraz/gateguard)
 2. [PRODUCT]()
 3. [Master Repo]()
 ---
