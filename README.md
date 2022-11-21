@@ -17,6 +17,7 @@ In the course of this project, you will be familiarized with the Go programming 
 ## Project Overview
 ---
 First of all, you will be introduced to the fundamentals of the Go programming language, so that you have the necessary skills for developing a simple micro-service. Then, you'll be given access to two fully implemented micro-services, which you'll add a third to, and their documentations. After you've familiarized yourselves with these micro-services, you'll develop a third micro-service that will complete their function. Finally, by utilizing docker-compose, you'll bring up the whole system, comprising databases, the two given micro-services, and your own service.
+
 ---
 ## Micro-services
 ---
@@ -41,9 +42,11 @@ The order micro-service, which you'll implement, serves a simple purpose; it man
 2. let the user modify their cart. (increasing/decreasing the quantity of an item or deleting them all together)
 
 It's worth mentioning that you can just keep everything in the memory; you don't need to use a database, but it might be considered a bonus point.
+
 ---
 ## Phase 2
 ---
 Now that everything is implemented, all you have to is to containerize your service by writing a Dockerfile, and then complete the given yaml configuration to fully bring up the system. Just as it is with the rest of components of this system, you need to apply memory usage, and cpu usage limits to your service. You can find the base Go image [here](https://hub.docker.com/_/golang/).
+
 --- 
 
