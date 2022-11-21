@@ -1,12 +1,13 @@
 # Cloud Computing Project
 ---
 ## Table of Content
-1. [Overview](https://github.com/cloud-1400-project/project/blob/main/README.md#overview)
-2. [Project Overview](https://github.com/cloud-1400-project/project/blob/main/README.md#project-overview)
-3. [Micro-services](https://github.com/cloud-1400-project/project/blob/main/README.md#micro-services)
-4. [Phase 1](https://github.com/cloud-1400-project/project/blob/main/README.md#phase-1)
-5. [Phase 2](https://github.com/cloud-1400-project/project/blob/main/README.md#phase-2)
+1. [Overview](#o)
+2. [Project Overview](#po)
+3. [Micro-services](#ms)
+4. [Phase 1](#p1)
+5. [Phase 2](#p2)
 ---
+<a id="o"></a>
 ## Overview
 ---
 In the course of this project, you will be familiarized with the Go programming language, REST API development, micro-service architecture, GRPC, containerization using Docker, development-level deployment using docker-compose, and Kubernetes. Here are a few links to these technologies:
@@ -17,11 +18,13 @@ In the course of this project, you will be familiarized with the Go programming 
 5. [docker-compose](https://docs.docker.com/compose/)
 6. [Kubernetes](https://kubernetes.io/)
 ---
+<a id="po"></a>
 ## Project Overview
 ---
 First of all, you will be introduced to the fundamentals of the Go programming language, so that you have the necessary skills for developing a simple micro-service. Then, you'll be given access to two fully implemented micro-services, which you'll add a third to, and their documentations. After you've familiarized yourselves with these micro-services, you'll develop a third micro-service that will complete their function. Finally, by utilizing docker-compose, you'll bring up the whole system, comprising databases, the two given micro-services, and your own service.
 
 ---
+<a id="ms"></a>
 ## Micro-services
 ---
 ![o](https://user-images.githubusercontent.com/64916254/203114001-4062b7f9-4b85-45ce-83f1-073a9f72fb99.png)
@@ -31,6 +34,7 @@ Here in this diagram you can see what purpose each part serves. The authenticati
 2. [PRODUCT]()
 3. [Master Repo]()
 ---
+<a id="p1"></a>
 ## Phase 1
 ---
 The authentication micro-service handles all the necessary actions for managing user; including but not limited to:
@@ -49,6 +53,7 @@ The order micro-service, which you'll implement, serves a simple purpose; it man
 It's worth mentioning that you can just keep everything in the memory; you don't need to use a database, but it might be considered a bonus point.
 
 ---
+<a id="p2"></a>
 ## Phase 2
 ---
 Now that everything is implemented, all you have to is to containerize your service by writing a Dockerfile, and then complete the given yaml configuration to fully bring up the system. Just as it is with the rest of components of this system, you need to apply memory usage, and cpu usage limits to your service. You can find the base Go image [here](https://hub.docker.com/_/golang/).
