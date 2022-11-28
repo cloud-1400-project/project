@@ -31,8 +31,8 @@ First of all, you will be introduced to the fundamentals of the Go programming l
 
 Here in this diagram you can see what purpose each part serves. The authentication service, and the product service, are fully developed, containerized, and accompanied by the necessary yaml configuration for the docker-compose. Before moving on to the development phase, you need to read their documentations, and plan for the next phases. Here are the links to each service, and a master repository (some will be added soon):
 1. [AUTH](https://github.com/cloud-1401-project/auth-service)
-2. [PRODUCT]() --TO BE ADDED--
-3. [Master Repo]() --TO BE ADDED--
+2. [PRODUCT](https://github.com/cloud-1401-project/product_service)
+3. [Master Repo](https://github.com/cloud-1401-project/deployment)
 
 ### Notes
 It is necessary that you read all the documentation of these services thoroughly, and carefully. The authentication service utilizes an access/refresh token pattern for authentication, and you can find a sample python script calling it's APIs in this [file](https://github.com/cloud-1401-project/auth-service/blob/master/python_helpers/helper.py). You can access it's documentation by either bringing up the service, and accessing localhost:port/api/docs, or by simply opening this [file](https://github.com/cloud-1401-project/auth-service/blob/master/docs/documentation.html) in a browser. It is highly recommended that you go with the former, as you have to take this step prior to development anyway.
